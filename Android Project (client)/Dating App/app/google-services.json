@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "354635463456",
+    "firebase_url": "https://dating-app-8624564564531.firebaseio.com",
+    "project_id": "dating-app-45456",
+    "storage_bucket": "dating-app-56456456.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:345643563456:android:ab7b1f456cdf269e7fd",
+        "android_client_info": {
+          "package_name": "com.raccoonsquare.dating"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "3456345634564356-n9rvrf1d8uv97poa5a45606r9d5tpsi0eds.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFMrt3QXZpR7nq6csRstT8DDl0_0Irt98"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "345634563456-n9rvrf1d8uv97poa5546a06r9d5tpsi0eds.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "34563456546-mnd6qantuaeb2bhi4568hqpe6mo41kt0qr0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "ru.ifsoft.mydating"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

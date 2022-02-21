@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <CheckBoxPreference
+        app:iconSpaceReserved="false"
+        android:key="allowNewProfilePhotosFCM"
+        android:title="@string/settings_notifications_new_profile_photos">
+    </CheckBoxPreference>
+
+    <CheckBoxPreference
+        app:iconSpaceReserved="false"
+        android:key="allowNewProfileCoversFCM"
+        android:title="@string/settings_notifications_new_profile_covers">
+    </CheckBoxPreference>
+
+    <CheckBoxPreference
+        app:iconSpaceReserved="false"
+        android:key="allowNewMediaItemsFCM"
+        android:title="@string/settings_notifications_new_media_items">
+    </CheckBoxPreference>
+
+</PreferenceScreen>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:key="settings_preference_screen">
+
+    <PreferenceCategory
+        app:key="header_general"
+        app:title="@string/settings_header_general"
+        app:iconSpaceReserved="false">
+
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="settings_push_notifications"
+            app:title="@string/settings_notifications" />
+
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="settings_change_password"
+            app:title="@string/settings_change_password"
+            app:enabled="true"
+            app:summary="" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:key="header_about"
+        app:iconSpaceReserved="false"
+        app:title="@string/settings_header_about">
+
+        <Preference
+            app:key="settings_terms"
+            app:title="@string/settings_terms"
+            app:iconSpaceReserved="false"
+            app:summary="" />
+
+        <Preference
+            app:key="settings_thanks"
+            app:title="@string/settings_thanks"
+            app:iconSpaceReserved="false"
+            app:summary="" />
+
+        <Preference
+            app:key="settings_version"
+            app:title="@string/settings_version"
+            app:iconSpaceReserved="false"
+            app:summary="@string/settings_copyright_info" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:key="header_others"
+        app:iconSpaceReserved="false"
+        app:title="@string/settings_header_others">
+
+        <Preference
+            app:key="settings_logout"
+            app:title="@string/settings_logout"
+            app:enabled="true"
+            app:iconSpaceReserved="false"
+            app:summary="" />
+        
+    </PreferenceCategory>
+
+</PreferenceScreen>
